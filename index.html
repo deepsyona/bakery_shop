@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cake Shop</title>
+
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- cdn icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section start here -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+            <h1 class="logoName">The Cake Shop</h1>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <!-- <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button> -->
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+            <i class="fa fa-user-circle" id="login"></i>
+            <i class="fa fa-shopping-cart" id="cart"></i>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+        <!-- <div class="login-page" id="login-form">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" onclick="login()" class="toggle-btn">Log In</button>
+                    <button type="button" onclick="register()" class="toggle-btn">Register</button>
+                </div>
+                <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="Email Id " required>
+                    <input type="password" class="input-field" placeholder="Enter password " required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+                <form id="register" class="input-group-register">
+                    <input type="text" class="input-field" placeholder="First Name" required>
+                    <input type="text" class="input-field" placeholder="Last Name " required>
+                    <input type="email" class="input-field" placeholder="Email-Id" required>
+                    <input type="password" class="input-field" placeholder="Enter password" required>
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+
+        </div> -->
+    </header>
+    <!-- header section end here -->
+    <!-- home section start here -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>Experience the magic of our Cakes</h2>
+            <p>We are here to make your day with our delicious cakes !!
+            </p>
+            <div class="home-btn">
+                <a href="#"><button>see more</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- home section end here -->
+    <!-- product section start here  -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Our Exclusive Products</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake1.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Black Forest Cake</h3>
+                        <p>Rs 600 </p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake2.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Blueberry Delight</h3>
+                        <p>Rs 650 </p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake3.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate Vanilla</h3>
+                        <p>Rs 595 </p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake4.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Butterscotch cherry topped</h3>
+                        <p>Rs 625 </p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake5.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Red velvet</h3>
+                        <p>Rs 645 </p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake6.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate Truffle</h3>
+                        <p>Rs 700 </p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake7.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Nutella Hazelnut</h3>
+                        <p>Rs 799</p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" swiper-slide box">
+                    <div class="img">
+                        <img src="images/cake8.png" alt="Not Found">
+                    </div>
+                    <div class="product-content">
+                        <h3>Pineapple Whipped cream</h3>
+                        <p>Rs 500</p>
+                        <div class="orderNow">
+                            <button>Order Now</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-previous"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!-- product section end here  -->
+
+    <!-- blog section start here -->
+    <section class="blogs" id="blogs">
+        <div class="swiper blogs-row">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="images/blog-img1.png" alt="Not found">
+                    </div>
+                    <div class="content">
+                        <h3>Snicker Cupcake</h3>
+                        <p>Snickers cupcakes are a delightful treat inspired by the popular Snickers candy bar. These cupcakes typically feature a rich chocolate base filled with caramel and peanuts, topped with a creamy peanut butter frosting, and garnished with pieces of Snickers bars. The combination of chocolate, caramel, peanuts, and peanut butter creates a decadent and indulgent dessert.</p>
+                        <a href="#blogs" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="img">
+                    <img src="images/blog-img1.png" alt="Not found">
+                </div>
+                <div class="content">
+                    <h3>Snicker Cupcake</h3>
+                    <p>Snickers cupcakes are a delightful treat inspired by the popular Snickers candy bar. These cupcakes typically feature a rich chocolate base filled with caramel and peanuts, topped with a creamy peanut butter frosting, and garnished with pieces of Snickers bars. The combination of chocolate, caramel, peanuts, and peanut butter creates a decadent and indulgent dessert.</p>
+                    <a href="#blogs" class="btn">learn more</a>
+                </div>
+            </div>
+
+            <!-- <div class="swiper-slide box">
+                <div class="img">
+                    <img src="images/blog-img1.png" alt="Not found">
+                </div>
+                <div class="content">
+                    <h3>Snicker Cupcake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum debitis officia mollitia quas ea vel magnam sit deserunt cum!</p>
+                    <a href="#blogs" class="btn">learn more</a>
+                </div>
+            </div> -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- blog section end here -->
+
+    <!-- newsletter section start here  -->
+    <section class="newsletter">
+        <form action="">
+            <h3>Subscribe for latest update</h3>
+            <input type="email" name="email" placeholder="enter your email" id="" class="box">
+            <input type="button" value="subscribe" class="box2">
+        </form>
+    </section>
+
+
+
+    <!-- newsletter section end here  -->
+
+    <!-- review sectiion starts here  -->
+    <section class="review" id="review">
+        <div class="heading">
+            <h2>Client Review</h2>
+        </div>
+
+        <div class="swiper review-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>I never thought that these cakes will make my day. Thank you The Cake Shop for making my day !!</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/client1.jpg" alt="not found">
+                        </div>
+                        <div class="clientDetails">
+                            <h3>Deeps</h3>
+                            <p>Kalopul, Kathmandu.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>The cakes are superb. It's so yummy. I would definetely recommend you to try this awesome cakes !!</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/client1.jpg" alt="not found">
+                        </div>
+                        <div class="clientDetails">
+                            <h3>Syona</h3>
+                            <p>Chabahil, Kathmandu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="client-review">
+                        <p>The cakes here are heaven. It's mindblowing. Give it a try. You will love it. 
+                            <br>It's yum 😋</p>
+                    </div>
+                    <div class="client-info">
+                        <div class="img">
+                            <img src="images/client1.jpg" alt="not found">
+                        </div>
+                        <div class="clientDetails">
+                            <h3>Bhujel</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
+    <!-- review sectiion ends here  -->
+
+    <!-- footer section starts here  -->
+
+    <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <h1 class="logoName">The Cake Shop</h1>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, explicabo?</p>
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Product</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Blogs</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Review</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+
+
+            </div>
+            <div class="box">
+                <h3>Extra link</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Account Info</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Order Item</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Privacy Policy</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Payment Method</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Our Services</a>
+
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+977 9843012757</a>
+                <a href="#"><i class="fas fa-envelope"></i>thecakeshop@gmail.com</a>
+
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+        </div>
+        <div class="credit"></div>
+        created by <span>Ms. Deepsyona </span> |all rights reserved !
+    </footer>
+
+
+
+    <!-- footer section ends here  -->
+    
+
+
+
+
+
+    <!-- swiper link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+
+
